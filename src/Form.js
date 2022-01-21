@@ -81,7 +81,7 @@ class Form extends Component {
                     <button>Valider</button>
                 </form>
 
-                <div style={this.state.displayInformations == true ? displayInformationsTrue : displayInformationsFalse}>
+                <div style={this.state.displayInformations === true ? displayInformationsTrue : displayInformationsFalse}>
                     <h2>Resultat</h2>
                     <p>Pseudo: {this.state.username}</p>
                     <p>Couleur choisi: {this.state.color}</p>

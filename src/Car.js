@@ -1,5 +1,4 @@
 import React from 'react';
-import carImage from './car.svg'
 
 const Car = (props) => {
 
